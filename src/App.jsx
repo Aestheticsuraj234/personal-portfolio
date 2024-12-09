@@ -1,6 +1,7 @@
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Testimonials from "./components/Testimonials";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       {/* hero */}
       <Hero/>
       <Features/>
+      <Testimonials/>
       {/* testimonials */}
       {/* pricing */}
       {/* contact */}

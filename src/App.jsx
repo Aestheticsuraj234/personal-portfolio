@@ -1,3 +1,4 @@
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -10,6 +11,7 @@ export default function App() {
       <div className="pt-16">
       {/* hero */}
       <Hero/>
+      <Features/>
       {/* testimonials */}
       {/* pricing */}
       {/* contact */}
